@@ -1,9 +1,14 @@
 class Solution {
   static runningSum(nums) {
+    // Check if the array is null or has no elements and return an empty array if true
+    if (!nums || nums.length === 0) {
+      return [];
+    }
+
     const result = [];
-    result.push(nums[0]);
+    result[0] = nums[0];
     for (let i = 1; i < nums.length; i++) {
-      result.push(nums[i] + result[i - 1]);
+      result[i] = nums[i] + result[i - 1];
     }
     return result;
   }

@@ -17,3 +17,6 @@ class Solution {
 }
 
 console.log(Solution.findDifferenceArray([2, 5, 1, 6, 1]));
+
+// time complexity O(N)
+// space complexity O(N)

@@ -15,3 +15,6 @@ class Solution {
 }
 
 console.log(Solution.runningSum([2, 3, 5, 1, 6]));
+
+// time complexity O(N)
+// space complexity O(N)

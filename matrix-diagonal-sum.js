@@ -23,3 +23,6 @@ console.log(
     [7, 8, 9],
   ])
 );
+
+// time complexity O(n)
+// space complexity O(1)

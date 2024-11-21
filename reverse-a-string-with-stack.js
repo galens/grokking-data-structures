@@ -11,3 +11,6 @@ class Solution {
 }
 
 console.log(Solution.reverseString('Hello, World!'));
+
+// time complexity O(N)
+// space complexity O(N)

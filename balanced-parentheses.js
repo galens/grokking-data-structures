@@ -31,3 +31,6 @@ class Solution {
 }
 
 console.log(Solution.isValid('{[()]]}'));
+
+// time complexity O(N)
+// space complexity O(N)

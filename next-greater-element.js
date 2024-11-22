@@ -1,9 +1,11 @@
 class Solution {
   static nextLargerElement(arr) {
     const stack = [];
-    const res = new Array(arr.length).fill(0);
+    const res = new Array(arr.length).fill(-1);
 
     for (let i = arr.length - 1; i >= 0; i--) {
+      console.log('stack: ', stack);
+      console.log('res: ', res);
       while (stack.length && stack[stack.length - 1] <= arr[i]) {
         // While the stack is not empty and the element at the top of the stack
         // is less than or equal to the current element, pop elements from the stack
@@ -20,6 +22,7 @@ class Solution {
       stack.push(arr[i]);
     }
     console.log('res: ', res);
+    return res;
   }
 }
 

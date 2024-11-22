@@ -28,3 +28,6 @@ let sol = new Solution();
 console.log(sol.simplifyPath('/a//b////c/d//././/..')); // Expected output: "/a/b/c"
 console.log(sol.simplifyPath('/../')); // Expected output: "/"
 console.log(sol.simplifyPath('/home//foo/')); // Expected output: "/home/foo"
+
+// time complexity O(N)
+// space complexity O(N)

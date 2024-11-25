@@ -13,3 +13,6 @@ class Solution {
 }
 
 console.log(Solution.removeDuplicates('abbaca'));
+
+// time complexity: O(N)
+// space complexity: O(N)

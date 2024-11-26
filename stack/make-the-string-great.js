@@ -17,3 +17,6 @@ class Solution {
 }
 
 console.log(Solution.makeGood('AbCdEfghIj'));
+
+// time complexity: O(N)
+// space complexity: O(N)

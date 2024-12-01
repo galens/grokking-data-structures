@@ -29,6 +29,7 @@ const json = [
       content: ['function sum (a, b) {', '   return a + b', '}', 'sum(1, 2)'],
     },
   },
+  { json: [{ h1: 'JSON To Markdown' }] },
 ];
 
 const json2md = (json) => {
@@ -79,6 +80,9 @@ const json2md = (json) => {
         }
         output += '```\n';
       }
+    }
+    if (line?.json) {
+      output += json2md(line?.json);
     }
   }
   return output;

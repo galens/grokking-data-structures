@@ -30,7 +30,7 @@ function makeChange(amount, coins) {
   return answer;
 }
 
-console.log(makeChange(6, [5, 7]));
+console.log(makeChange(6, [9, 2]));
 
 /*
 function makeChange(amount, coins) {

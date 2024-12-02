@@ -42,3 +42,6 @@ while (newHead) {
   console.log(newHead.val);
   newHead = newHead.next;
 }
+
+// time complexity: O(n)
+// space complexity: O(1)

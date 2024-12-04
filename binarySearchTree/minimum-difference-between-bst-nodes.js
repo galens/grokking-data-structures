@@ -55,4 +55,4 @@ console.log(solution.minDiffInBST(example1)); // Expected output: 1
 console.log(solution.minDiffInBST(example2)); // Expected output: 10 (because difference between 40 and 50 is 10)
 
 // time complexity: O(n)
-// space complexity: O(n)
+// space complexity: O(n) (a skewed tree) O(logn) (balanced tree)

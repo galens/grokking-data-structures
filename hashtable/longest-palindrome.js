@@ -31,4 +31,4 @@ const solution = new Solution();
 console.log(solution.longestPalindrome('applepie'));
 
 // time complexity: (O(n))
-// space complexity: (O(n) + O(k) = O(n))
+// space complexity: O(1)

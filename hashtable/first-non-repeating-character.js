@@ -22,3 +22,6 @@ class Solution {
 
 const solution = new Solution();
 console.log(solution.firstUniqChar('apple'));
+
+// time complexity: O(n)
+// space complexity: O(1)

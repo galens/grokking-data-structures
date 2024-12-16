@@ -75,3 +75,6 @@ console.log(
     4
   )
 ); // false
+
+// time complexity O(V + E)
+// space complexity O(V + E)
